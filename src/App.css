@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.card {
+  padding: 2em;
+}
+
+input{
+  display: block;
+  height: 34px;
+  width: 250px;
+  margin-top: 25px;
+  padding-left: 7px;
+}
+input::placeholder{
+  color: whitesmoke;
+}
+button{
+  margin-top: 15px;
+  display: block;
+  margin-left: 33%;
+  margin-top: 20px;
+}
+.success{
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 8px;
+}
